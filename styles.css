@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-box{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(3, 21, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid rgb(58, 58, 58);
+    border-radius: 20px;
+}
+
+.heading{
+    color:rgb(253, 244, 178);
+    font-size:20px;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    line-height: 1.5;
+    /* margin-inline: 20px; */
+    margin: 10px 20px 0 20px;
+
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    /* background-color: yellow; */
+}
+
+button{
+    all:unset;
+    height: 70px;
+    width: 70px;
+    border: 5px solid black;
+    background-color: green;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.green { background-color: green; }
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+.active { opacity: 0.4 }
+
+.button_start{
+    all:unset;
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgb(60, 59, 59);
+    background-color: #0d6efd;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+    text-align: center;
+    color:#fff;
+}
